@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Calculator</title>
+    <link rel="icon" href="favicon (1).ico">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Merriweather+Sans&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <h1>Calculator</h1>
+    <div class="box">
+      <input type="text" id="output" readonly><br>
+      <button type="button" id="C" onClick="clea(); clic('C')">C</button>
+      <button type="button" id="CE" onClick="delet(); clic('CE')">CE</button>
+      <button type="button" id="percent" id="percent" onClick="display('%'); clic('percent')">%</button>
+      <button type="button" id="divide" id="divide" onClick="display('/'); clic('divide')">/</button><br>
+      <button type="button" id="seven" onClick="display('7'); clic('seven')">7</button>
+      <button type="button" id="eight" onClick="display('8'); clic('eight')">8</button>
+      <button type="button" id="nine" onClick="display('9'); clic('nine')">9</button>
+      <button type="button" id="multiply" onClick="display('*'); clic('multiply')">*</button><br>
+      <button type="button" id="four" onClick="display('4'); clic('four')">4</button>
+      <button type="button" id="five" onClick="display('5'); clic('five')">5</button>
+      <button type="button" id="six" onClick="display('6'); clic('six')">6</button>
+      <button type="button" id="subtract" onClick="display('-'); clic('subtract')">-</button><br>
+      <button type="button" id="one" onClick="display('1'); clic('one')">1</button>
+      <button type="button" id="two" onClick="display('2'); clic('two')">2</button>
+      <button type="button" id="three" onClick="display('3'); clic('three')">3</button>
+      <button type="button" id="add" onClick="display('+'); clic('add')">+</button><br>
+      <button type="button" id="dot" onClick="display('.'); clic('dot')">.</button>
+      <button type="button" id="zero" onClick="display('0'); clic('zero')">0</button>
+      <button type="button" id="doublezero" onClick="display('00'); clic('doublezero')">00</button>
+      <button type="button" id="equals" onClick="calculate(); clic('equals')">=</button>
+    </div>
+   <script type="text/javascript" src="script.js"> </script>
+  </body>
+</html>

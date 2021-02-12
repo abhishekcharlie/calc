@@ -1,0 +1,67 @@
+body{
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  text-shadow: 10px 10px 20px grey;
+  background-color: #ff9595;
+}
+.box{
+  height:500px;
+  width:350px;
+  background-color: #3da4ab;
+  box-shadow: 10px 10px 10px grey;
+  border-radius: 40px;
+  position: relative;
+  left:500px;
+}
+#output{
+  height:80px;
+  width:343px;
+  background-color: #3da4ab;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  text-align:right;
+  color:white;
+  outline:none;
+  border-color:transparent;
+  font-size:20px;
+}
+button{
+  cursor:pointer;
+  border-radius: 50%;
+  width:50px;
+  height:50px;
+  border:none;
+  margin:15px;
+  font-weight:bold;
+  font-family: 'Merriweather', serif;
+/* font-family: 'Merriweather Sans', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Sacramento', cursive; */
+  box-shadow: 2px 2px 2px grey;
+  background-color: #eff3c6;
+  outline: none;
+}
+.pressed{
+  box-shadow:none;
+  opacity: 0.5;
+}
+#percent{
+background-color: #035aa6;
+}
+#divide{
+  background-color: #ff5722;
+}
+#multiply{
+  background-color: #4cbbb9;
+}
+#subtract{
+  background-color: #f5b971;
+}
+
+#add{
+  background-color: #e58a8a;
+}
+
+#equals{
+  background-color: #6983aa;
+}
