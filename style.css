@@ -65,3 +65,8 @@ background-color: #035aa6;
 #equals{
   background-color: #6983aa;
 }
+h2{
+  text-align: right;
+  position:relative;
+  top:500px;
+}
